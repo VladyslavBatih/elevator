@@ -1,3 +1,8 @@
+package model;
+
+import Util.Util;
+import Util.Constant;
+
 public class Person {
 
     private int floorAim;
@@ -9,13 +14,13 @@ public class Person {
     public void setFloorAim(int amountOfFloors, int currentFloor) {
         floorAim = currentFloor;
         while (floorAim == currentFloor) {
-            floorAim = Util.generateNumber(1, amountOfFloors);
+            floorAim = Util.generateNumber(Constant.FIRST_FLOOR, amountOfFloors);
         }
     }
 
     @Override
     public String toString() {
-        return "Person {" +
+        return "entity.Person {" +
                 "floorAim = " + floorAim +
                 '}';
     }
