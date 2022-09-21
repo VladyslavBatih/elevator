@@ -1,4 +1,4 @@
-import Util.Program;
+import util.Program;
 
 public class Main {
 

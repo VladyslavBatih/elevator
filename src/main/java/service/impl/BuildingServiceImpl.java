@@ -1,7 +1,7 @@
 package service.impl;
 
-import Util.Util;
-import Util.Constant;
+import util.Util;
+import util.Constant;
 import model.Building;
 import model.Elevator;
 import model.Person;

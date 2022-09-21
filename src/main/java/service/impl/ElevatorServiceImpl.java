@@ -1,6 +1,6 @@
 package service.impl;
 
-import Util.Constant;
+import util.Constant;
 import model.Elevator;
 import model.Person;
 import service.ElevatorService;

@@ -1,6 +1,6 @@
 package model;
 
-import Util.Constant;
+import util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;

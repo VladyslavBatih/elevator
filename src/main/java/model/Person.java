@@ -1,7 +1,7 @@
 package model;
 
-import Util.Util;
-import Util.Constant;
+import util.Util;
+import util.Constant;
 
 public class Person {
 
