@@ -40,6 +40,11 @@ public class BuildingServiceImpl implements BuildingService {
         drawConsoleElevator();
     }
 
+    @Override
+    public Building getBuilding() {
+        return building;
+    }
+
     private Map<Integer, List<Person>> floorsInit(int amountOfFloors) {
         return IntStream.rangeClosed(Constant.SECOND_FLOOR, amountOfFloors)
                 .boxed()
